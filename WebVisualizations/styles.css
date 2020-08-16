@@ -1,0 +1,43 @@
+#navbarSupportedContent{
+    position: relative;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    visibility: visible;
+    
+}
+
+#hiddenSupportedContent{
+    position: absolute;
+    left: 100px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    visibility: hidden;
+}
+
+/* .navbar-toggler{
+    visibility: hidden;
+} */
+  
+/*Adding media queries to show the drop-down, and hide the navbar when the screen is smaller */
+@media (max-width: 600px) {
+    /* #defaultnav {
+      padding: 10px;
+    } */
+
+
+    #navbarSupportedContent{
+      visibility: hidden;
+    }
+  
+    #hiddenSupportedContent{
+      visibility: visible;
+    }
+
+    /* .navbar-toggler{
+        visibility: visible;
+    } */
+
+  }
+  
