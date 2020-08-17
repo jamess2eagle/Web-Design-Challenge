@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Analysis</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -56,12 +55,41 @@
         </ul>
       </div>
     </nav>
-
-    <h1>Weather Analysis across the world</h1>
+    <h1>Impact of Latitude on Climate Changes</h1>
     <hr>
-
-    <p>Description</p>
-
+    <div class= "container-fluid">
+      <div class = "col-lg-3", id = "map-container">
+        <img id="map-image" src=map.png class="img-thumbnail">
+      </div>
+      <div class = "col-lg-9">
+        <div id="text-layout">
+          <br>
+          <h3>Purpose</h3>
+          <p>The purpose of this project is to analyze 500+ cities over the world and discover the relationship between the latitude and the various aspects of weather, such as temperature, humidity, wind speed and cloudiness.</p>
+          <br>
+          <br>
+          <h3>Methods</h3>
+          <p>500+ cities will be selected randomly by using Python. Then the weather data will be extracted using <a href="https://openweathermap.org/api" target="_blank">OpenWeatherMap API</a>. All of the analysis and visualization will be performed on Python using Pandas and Matplotlib libraries. </p>
+        </div>
+      </div>
+    </div>
+    <div id = "nav-layout" class="col-12">
+      <br>
+      <h3>Layout</h3>
+      <ul>
+        <li><strong>Visualization:</strong>
+          <ul>
+            <li><a href="vis1.html">vis1</a></li>
+            <li><a href="vis2.html">vis2</a></li>
+            <li><a href="vis3.html">vis3</a></li>
+            <li><a href="vis4.html">vis4</a></li>
+          </ul>
+        </li>
+        <li><strong>Comparison: </strong> <a href="comparison.html">Link</a></li>
+        <li><strong>Data: </strong> <a href="data.html">Link</a></li>
+      </ul>
+    </div>
+    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

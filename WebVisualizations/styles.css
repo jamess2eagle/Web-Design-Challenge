@@ -1,24 +1,74 @@
 #navbarSupportedContent{
     position: relative;
-    padding: 20px;
+    padding: 10px;
     margin-right: 10px;
     margin-left: 10px;
     visibility: visible;
     
 }
 
+.nav li a {
+  padding: 10px
+}
+
+.navbar-brand{
+  padding: 10px;
+  font-size: 20px;
+}
+
 #hiddenSupportedContent{
-    position: absolute;
-    left: 100px;
-    padding: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-    visibility: hidden;
+  position: absolute;
+  left: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  visibility: hidden;
+}
+
+#navbarSupportedContent ul li{
+  padding: 5px;
+  font-size: 15px;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  left: 0px;
 }
 
 /* .navbar-toggler{
     visibility: hidden;
 } */
+
+#map-container {
+  float: left;
+}
+
+#map-image{
+  margin-right: 20px;
+  height: 350px;
+  border-style: none;
+}
+/* #main-layout{
+  width: 30%;
+}
+#text-layout{
+  width: 50%;
+} */
+#nav-layout {
+  padding-top: 50px;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+h2{
+  text-align:center;
+}
+
+
   
 /*Adding media queries to show the drop-down, and hide the navbar when the screen is smaller */
 @media (max-width: 600px) {
